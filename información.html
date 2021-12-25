@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Infórmación sobre Warframe">
+    <meta name="keywords" content="diseño web, desarrollo web, seo,posicionamiento web">
+    <meta name="author" content="Juan Félix">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/logo3.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+                <div id="marca">
+                    <h1><span class="resaltado">Warframe</span> información</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="personajes.html">Personajes</a></li>
+                        <li><a href="armas.html">Armas</a></li>
+                        <li class="actual"><a href="información.html">Contacto</a></li>
+                        <li><a href="redes.html">Redes</a></li>
+                        <li><a href="rss.xml"><img src="images/rss-logo.png" width="25" height="25" alt="Logo RSS"></a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    
+    <section id="cabecera">
+        <div class="contenedor">
+            <h2 class="cabe">Warframe</h2>
+            <p>Contacto</p>
+        </div>
+    </section>
+        <section id="boletin">
+            <div class="contenedor">
+                <h2>Suscribete para más información</h2>
+                <form>
+                    <input type="email" name="email" placeholder="Ingresa tu email...">
+                    <button type="submit" class="boton1">Unete</button>
+                </form>
+            </div>
+        </section>
+            <div class="contenedor">
+                <article class="columna col-8 col-s-12">
+                    <div class="formulario">
+                            
+                        <h3>Al hacer click <input type="button" class="boton2" value="aquí" onClick="window.location ='https://www.warframe.com/es/game';"> te redirigirá a la página oficial de Warframe</h3>
+                        <h3>Al hacer click <input type="button" class="boton2" value="aquí" onClick="window.location ='https://www.digitalextremes.com/';"> te redirigirá a la página oficial de los creadores de Warframe.</h3>
+                        <h3>Aquí Puedes poner tus datos para cualquier consulta o mejora de la presente página web.</h3>
+                        <br>
+                        <form method="POST" action="Formulario.php">
+                                <fieldset>
+                                    <legend>Contacto</legend>
+                                    <br>
+                                    <label for="nombre">Nombre:</label>
+                                        <input tabindex="1" class="input" type="text" id="nombre" placeholder="Ingresa tu nombre" maxlength="20" required pattern="[A-Za-z ]{1,20}" title="Ingresa tu nombre">
+                                    <br>
+                                    <label for="apellidos">Apellidos:</label>
+                                    <input tabindex="2" class="input" type="text" id="apellidos" placeholder="Ingresa tus apellidos" maxlength="50" required pattern="[A-Za-z ]{1,50}" title="Ingresa tus apellidos">
+                                    <br>
+                                    <label for="usuario">Usuario: </label>      
+                                        <input tabindex="3" class="input" type="text" id="usuario" placeholder="Ingresa tu usuario" maxlength="10" required pattern="[A-Za-z0-9]{1,10}" title="Ingresa tu usuario">                        
+                                    <br>
+                                    <label for="clave">Contraseña:</label>
+                                        <input tabindex="4" class="input" type="password" id="clave" placeholder="Ingresa tu contraseña" maxlength="15" required pattern="[A-Za-z0-9]{1,15}" title="Ingresa tu contraseña">     
+                                    <br>
+                                    <label for="emailaddress">Correo: </label>      
+                                    <input tabindex="5" class="input" type="email" id="emailaddress" placeholder="Ingresa tu correo @..." title="Ingresa tu correo @..." required>
+                                    <br>
+                                    <label for="foto">Insertar imagen:</label>
+                                    <input tabindex="6" class="input" type="file" id="foto">
+                                    <br>
+                                    <label for="telefono">Teléfono</label>
+                                    <input tabindex="7" class="input"  type="tel" id="telefono" placeholder="Ingresa tu Teléfono +34 6xx xxxx xx" pattern="[0-9]{1,15}" required title="Ingresa tu Teléfono">
+                                    <br>
+                                    <label for="comentario"> Comenta que te ha parecido la página:</label>
+                                    <br>
+                                    <textarea name="texto" id="comentario" cols="50" rows="3">Describe tu experiencia...</textarea>
+                                    <br>
+                                    <label>¿Qué te ha parecido nuestra información?</label>
+                                    <br><br>
+                                    <select name="lista de seleccion">
+                                        <option value="opcion1" >Mala, no me ha servido</option>
+                                        <option value="opcion2" >Buena, pero mejorable</option>
+                                        <option value="opcion3" >Muy buena</option>
+                                    </select>
+                                    <br><br>
+                                    <label>¿Que opinas?</label>
+                                    <br><br>
+                                    <input  type="checkbox" name="elije" value="mal">No pienso volver<br>
+                                    <input  type="checkbox" name="elije" value="regular">Volveré a ver si mejora<br>
+                                    <input  type="checkbox" name="elije" value="bien">Me ha encantado, volvere pronto<br>
+                                    <br>
+                                    <label>¿Nos volverias a visitar?</label>
+                                        <p>
+                                            <input  type="radio" name="valor" value="SI" required> Si
+                                            <input  type="radio" name="valor" value="NO" required> No
+                                        </p>
+                                        <br>
+                                        <input  class="input1" type="submit" value="Enviar datos">
+                                        <br>
+                                        <fieldset>         
+                                                <legend>Botones de reset y envío</legend>   
+                                                <button class="boton1" type="reset">Resetear</button>         
+                                                <button class="boton1" type="submit">Enviar</button>       
+                                        </fieldset>   
+                                </fieldset>
+                            </form>
+                            <br>
+                            <h2><button type="button" onclick="alert('Muchas gracias por valorarnos y visitar nuestra web, ¡¡¡esperamos verte pronto!!!')"> Haz clic aquí</button></h2>
+
+                                <h2 class="histo">Aquí puedes escuchar una canción de fondo mientras rellenas los campos:</h2>
+                                <audio src="audio/warframe.mp3" preload="none" controls></audio>
+                    </div>  
+                </article>
+                <aside class="lateral col-3 col-s-12">
+                    <div class="oscuro">
+                        <h3>Rellena este formulario para que contactemos contigo.</h3>
+                        <p>Esperamos verte pronto.</p>
+                    </div>
+                </aside>     
+            </div>
+    <footer>
+        <p>Información sobre Warframe, Copyright &copy; 2021. Proyecto ASIR 2º Año.</p>
+    </footer>
+    </body>
+    </html>

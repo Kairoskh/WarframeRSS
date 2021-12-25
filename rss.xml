@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+    <title>Información sobre Warframe </title>
+    <link>https://kairoskh.github.io/WarframeRSS</link>
+    <description>Aqui veremos las RSS de Warframe con la información</description>
+    <copyright> Warframe RSS Juan Félix 2021. Todos los derechos reservados</copyright>
+    <item>
+        <title>Historia</title>
+        <link>https://kairoskh.github.io/WarframeRSS/historia.hmtl</link>
+        <description>En este apartado encontraremos la historia de Warframe</description>
+        <pubDate>Sat, 25 Dec 2021 16:54:00 GMT</pubDate>
+        <enclosure url="https://kairoskh.github.io/WarframeRSS/historia/halo.mp3" length="2010000" type="audio/mpeg" />  
+    </item>
+    <item>
+        <title>Personajes</title>
+        <link>https://kairoskh.github.io/WarframeRSS/personajes.hmtl</link>
+        <description>En este apartado encontraremos algunos de los personajes de Warframe</description>
+        <pubDate>Sat, 25 Dec 2021 16:54:00 GMT</pubDate>
+    </item>
+    <item>
+        <title>Armas</title>
+        <link>https://kairoskh.github.io/WarframeRSS/armas.hmtl</link>
+        <description>En este apartado encontraremos algunas de las armas de Warframe</description>
+        <pubDate>Sat, 25 Dec 2021 16:54:00 GMT</pubDate>
+    </item>
+</channel>
+</rss>
